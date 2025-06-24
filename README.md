@@ -1,2 +1,2 @@
 # wdd130-andres
-Cient website for WDD130 Final Project
+Client website for WDD130 Final Project
