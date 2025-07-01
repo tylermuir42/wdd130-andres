@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Recipe Book</title>
+    <link rel="stylesheet" href="/wdd130-andres/styles.css/style.css" />
 </head>
 <body>
-    This is the site for Sierra Andres
+
+    <div class="nav">
+        <img src="images/logo.png" alt="Logo">
+        <ul>
+            <a href="/wdd130-andres/index.html">Home</a>
+            <a href="/wdd130-andres/savory.html">Savory</a>
+            <a href="/wdd130-andres/dessert.html">Dessert</a>
+        </ul>
+    </div>
+
+    <div class="main-image">
+        <img src="/wdd130-andres/images/oil.jpg" alt="Cooking ingredients">
+    </div>
+
+    <div class="welcome-section">
+        <h2>Welcome to my mini recipe book</h2>
+        <p>These are the dishes I love and make often.</p>
+    </div>
+
+    <div class="recipes-section">
+        <div class="recipe">
+            <img src="/wdd130-andres/images/pasta.jpg" alt="Vodka-less Vodka Pasta">
+            <h3>Vodka-less Vodka Pasta</h3>
+            <p>A creamy, rich pasta dish without the alcohol.</p>
+            <a href="/wdd130-andres/savory.html">
+                <button>VIEW RECIPE</button>
+            </a>
+        </div>
+        <div class="recipe">
+            <img src="/wdd130-andres/images/cake.jpg" alt="Chocolate Lava Cake">
+            <h3>Chocolate Lava Cake</h3>
+            <p>Decadent dessert with a gooey chocolate center.</p>
+            <a href="/wdd130-andres/dessert.html">
+                <button>VIEW RECIPE</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Suggest a Recipe</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" rows="5" placeholder="Message" required></textarea><br>
+            <button type="submit">SEND</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <img src="/wdd130-andres/images/chef.png" alt="Chef illustration">
+        <nav>
+            <a href="/wdd130-andres/index.html">Home</a>
+            <a href="/wdd130-andres/savory.html">Savory</a>
+            <a href="/wdd130-andres/dessert.html">Dessert</a>
+        </nav>
+        <p>© Copyright 2025</p>
+    </div>
+
 </body>
 </html>

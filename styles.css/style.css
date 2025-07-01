@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+.welcome-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.recipes-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.recipe {
+    width: 300px;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.recipe button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #D9905C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #D9905C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.footer nav {
+    margin-top: 10px;
+}
+
+.footer nav a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
