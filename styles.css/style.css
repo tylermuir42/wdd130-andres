@@ -17,23 +17,45 @@ body {
 
 .nav {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
     background-color: #fff;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
-.nav ul {
-    list-style-type: none;
+.logo-image img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.nav ul{
+    list-style: none; /* Removes bullet points */
+    display: flex;
     padding: 0;
     margin: 0;
+    gap: 10px; 
+    margin-left: auto;
 }
+
 
 .nav li {
     display: inline;
-    margin: 0 15px;
-    font-size: 18px;
+    /* margin: 0 15px; */
+    margin-right: 10px;
+    font-size: 23px;
     color: #333;
 }
+
+
+.nav ul li a {
+    text-decoration: none; /* Removes underline */
+    color: #333; /* Sets text color */
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
 
 .main-image img {
     width: 100%;
@@ -103,17 +125,34 @@ body {
 
 .footer {
     background-color: #eee;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
 
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footer-bottom{
+    font-size: 0.9em;
+    color: #666;
+}
+
+
 .footer img {
-    width: 50px;
-    vertical-align: middle;
+    position: absolute;
+    left: 20px;
+    width: 70px;
+    padding-top: 40px;
 }
 
 .footer nav {
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 .footer nav a {
