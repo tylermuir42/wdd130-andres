@@ -2,3 +2,6 @@
 Client website for WDD130 Final Project
 
 https://tylermuir42.github.io/wdd130-andres/
+Assignments:
+Chance - Desserts Page
+Elijah - Savory Page
